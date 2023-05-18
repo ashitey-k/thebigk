@@ -13,7 +13,6 @@ body{
 }
 .container{
     height: 100%;
-    width:100vw;
     position:fixed;
     overflow-y: scroll;
     scroll-behavior: smooth;
@@ -149,7 +148,6 @@ header{
     display: flex;
     width:100%;
     background-color: whitesmoke;
-    padding: 0px 25px 200px 25px;
     align-items: center;
 }
 .image img{
@@ -164,7 +162,6 @@ header{
 }
 #picks{
     background-color: white;
-    padding: 0px 25px 200px 25px;
     text-transform: capitalize;
 }
 .list{
@@ -198,7 +195,6 @@ header{
 #events{
     height: 100vh;
     background-color: beige;
-    padding: 0px 25px 200px 25px;
     text-align: center;
 }
 .card{
@@ -222,7 +218,6 @@ header{
 #mixes{
     height: 100vh;
     background-color: whitesmoke;
-    padding: 0px 25px 200px 25px;
     align-items: center;
 }
 .links{
@@ -253,7 +248,6 @@ header{
   #footer{
     height: 50vh;
     background-color: rgb(250, 222, 222);
-    padding: 0px 25px 200px 25px;
     align-items: center;
     text-align: center;
 }
