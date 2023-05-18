@@ -5,20 +5,14 @@
     list-style: none;
 }
 body{
+    width: auto;
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     height: 100vh;
     overflow: hidden;
     position: fixed;
 }
-.container{
-    height: 100%;
-    width: auto;
-    position: fixed;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
-  }
+
 header{
     position: fixed;
     height: 80px;
