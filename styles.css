@@ -13,7 +13,7 @@ body{
 }
 .container{
     height: 100%;
-    width: 90%;
+    width: 100%;
     position:fixed;
     overflow-y: scroll;
     scroll-behavior: smooth;
@@ -133,6 +133,8 @@ header{
     padding-left: 100px;
     padding-right: 100px;
     height: 100vh;
+    width: 100%;
+    position: fixed;
     background-image: url(IMG_0513.PNG);
     text-align: center;
     text-transform: capitalize;
@@ -150,6 +152,7 @@ header{
     height: 150vh;
     display: flex;
     width:100%;
+    position: fixed;
     background-color: whitesmoke;
     align-items: center;
 }
@@ -165,6 +168,8 @@ header{
 }
 #picks{
     background-color: white;
+        width: 100%;
+    position: fixed;
     text-transform: capitalize;
 }
 .list{
@@ -197,6 +202,8 @@ header{
 }
 #events{
     height: 100vh;
+        width: 100%;
+    position: fixed;
     background-color: beige;
     text-align: center;
 }
@@ -220,6 +227,8 @@ header{
 }
 #mixes{
     height: 100vh;
+        width: 100%;
+    position: fixed;
     background-color: whitesmoke;
     align-items: center;
 }
@@ -250,6 +259,8 @@ header{
   }
   #footer{
     height: 50vh;
+          width: 100%;
+    position: fixed;
     background-color: rgb(250, 222, 222);
     align-items: center;
     text-align: center;
