@@ -8,6 +8,7 @@ body{
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     height: 100vh;
+    overf;ow: hidden;
     position: fixed;
 }
 .container{
@@ -123,6 +124,8 @@ header{
         display: flex;
         flex-direction: column;
     }
+      body{
+          font-size:10px;
   }
 #landing{
     padding-top: 250px;
