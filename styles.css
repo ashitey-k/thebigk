@@ -14,6 +14,7 @@ body{
 .container{
     height: 100%;
     width: 100%;
+    position: fixed;
     overflow-y: scroll;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
@@ -149,7 +150,8 @@ header{
 #about{
     height: 150vh;
     display: flex;
-    position: fixed;
+        width: 100%;
+
     background-color: whitesmoke;
     align-items: center;
 }
@@ -165,7 +167,7 @@ header{
 }
 #picks{
     background-color: white;
-    position: fixed;
+    width: 100%;
     text-transform: capitalize;
 }
 .list{
@@ -198,7 +200,7 @@ header{
 }
 #events{
     height: 100vh;
-    position: fixed;
+    width: 100%;
     background-color: beige;
     text-align: center;
 }
@@ -222,7 +224,7 @@ header{
 }
 #mixes{
     height: 100vh;
-    position: fixed;
+    width: 100%;
     background-color: whitesmoke;
     align-items: center;
 }
@@ -253,7 +255,7 @@ header{
   }
   #footer{
     height: 50vh;
-    position: fixed;
+    width: 100%;
     background-color: rgb(250, 222, 222);
     align-items: center;
     text-align: center;
