@@ -204,7 +204,10 @@ header{
     padding: 15px;
 }
 #events{
-    height: 100vh;
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    height: 180vh;
     width: 100%;
     background-color: beige;
     padding: 0px 25px 200px 25px;
@@ -212,7 +215,7 @@ header{
 }
 .card{
     background-color: whitesmoke;
-    width: 30%;
+    flex: 1 0 200px;
     box-shadow: 5px 5px 20px;
     height: 7cm;
 }
